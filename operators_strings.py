@@ -1,5 +1,7 @@
 from itertools import combinations
 
+from pyexpat.errors import messages
+
 #produs = 1
 
 #for i in range(5):
@@ -123,21 +125,171 @@ from itertools import combinations
 #     al treilea rand    refefe"""
 # )
 
-test_name = "VoltageCheck"
-duration = 1.237
-
-# test VoltageCheck finished in 1.23
-print(f"test {test_name} finished in {duration:.2f} ")
-
-
-test_name = "VoltageCheck"
+# test_name = "VoltageCheck"
+# duration = 1.237
+#
+# # test VoltageCheck finished in 1.23
+# print(f"test {test_name} finished in {duration:.2f} ")
+#
+#
+# test_name = "VoltageCheck"
 # duration = 1.237
 #
 # # test VoltageCheck finished in 1.23
 # print(f"test {test_name} finished in {duration:.3f} ")
 
-print(test_name.upper())
+#print(test_name.upper())
+
+#print(test_name.lower())
+
+# command = 'Start'
+#
+# if command == 'StaRt':
+#     print ('Starting system')
+#
+# if command.lower() == 'start':
+#     print ('Starting system')
+
+# word = 'Python'
+
+# print(word[0])
+# print(word[3])
+#
+# print(word[-1])
+
+# text = 'Programming'
+# print(text[0:6])
+#
+# print(text[:4])
+#
+# print(text[4:])
+
+# message = 'hello Python'
+# # len
+# print(len(message))
+
+# a= 'Hello'
+# b= 'World'
+#
+# print(a + ' ' + b)
+
+# raw = '    ERROR_CODE_12  '
+# print(raw)
+# # strip
+# clean_string = raw.strip()
+# print(clean_string)
+
+# replace ()
+# log = 'Voltage=12,5V   new text1, text2'
+#  float 12.5 <- 12,5
+# print(log)
+# log = log.replace(',', '.')
+# print(log)
+
+# sdsds.txt
+# sdsd.exe
+# file.log
+
+# filename = 'report_2025.log'
+#
+# if filename.endswith('.log'):
+#     print('Log file detected')
+#
+# if filename.startswith('report'):
+#     print('Report file detected')
+#
+
+# find
+# message = 'CAN timeout detected'
+# print(message)
+# index = message.find('timeout')
+# print(index)
+#
+# index = message.find('exe')
+# print(index)
+
+# in vs find
+
+# Timeout_flag = False
+# if 'timeout' in message:
+#     timeout_flag = True
+#     print('Timeout found!')
+
+# split
+
+# data = '12.5, 3.7, OK'
+# print(data)
+# values = data.split(',')
+# print(values)
+
+# my_strings = ['Ana ', 'are ', 'mere ', '!']
+# final_string = ''.join(my_strings)
+# print(final_string)
 
 
 
+# problema: parti dintr-un path intr-un fisier, vreau sa gasesc un anumit path
+# parts = ['c:', 'logs', '2026', 'run_01.txt']
+# path = '/'.join(parts)
+# print(path)
 
+# Password Generator
+
+# import random
+#
+# s ='Ana are mere!'
+# s_random = random.sample(s,3)
+# print(s_random)
+
+####### generare parola utilizand mai multe conditii
+# import random
+# lower = 'abcdefghijklmnopqestuvwyz'
+# upper = 'ABCDEFGHIJKLMNOPQRSTUVWYZ'
+# numbers = '0123456789'
+# symbols = '!@#$%^&*()'
+#
+# all_string = lower+upper+numbers+symbols
+# print(all_string)
+#
+# length = 16
+# password = ''.join(random.sample(all_string, length))
+# print(password)
+
+######### vreau sa intreb utilizatorul care foloseste sistemul ce tb sa execute
+# function input
+a = ""
+
+# while a != "STOP":
+#     a = input("Add data: ")
+#     print(a)
+#
+# print("The user sttoped entering the data!")
+
+
+# ##### Liste
+
+# my_list = [70, 5, -7, 50, 50, -7, -20.5, True, "Ana are mere", 4+7j]
+# print(my_list)
+#
+# print(my_list[0])
+# print(my_list[3])
+# print(my_list[-1])
+
+# print(len(my_list))
+# sliced_list = my_list[:4]
+# print(sliced_list)
+# sliced_list = my_list[4:]
+# print(sliced_list)
+# sliced_list = my_list[-3]
+# print(sliced_list)
+
+######### o lista ca o baza de date din tastatura
+
+# db = []
+# print(db)
+#
+# get_data = ""
+# while get_data != "STOP":
+#     get_data = input("Add Data: ")
+#     if get_data != "STOP": db.append(get_data)
+# print(db)
